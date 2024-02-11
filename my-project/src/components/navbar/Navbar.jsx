@@ -31,7 +31,6 @@ const Navbar = () => {
                     {
                         location.pathname === "/" && <RxHamburgerMenu className='md:hidden cursor-pointer' size={21} onClick={OpenSlideNav} />
                     }
-                   
                 </div>
             </section>
             {
@@ -40,11 +39,11 @@ const Navbar = () => {
                 <div className='bg-white'> 
                     <section className=' relative md:block hidden'>
                         <ol className='flex sm:gap-8 gap-5 sm:text-sm text-xs font-medium justify-center pt-4'>
-                            <li>Home</li>
-                            <li>Dashboard</li>
-                            <li>Products</li>
-                            <li>Transactions</li>
-                            <li>Journal</li>
+                            <li className='cursor-pointer hover:text-gray-600'>Home</li>
+                            <li className='cursor-pointer hover:text-gray-600'>Dashboard</li>
+                            <li className='cursor-pointer hover:text-gray-600'>Products</li>
+                            <li className='cursor-pointer hover:text-gray-600'>Transactions</li>
+                            <li className='cursor-pointer hover:text-gray-600'>Journal</li>
                         </ol>
 
                         <div className='absolute right-0 flex flex-col justify-center items-center'>

@@ -6,11 +6,9 @@ const Exclusive_Benifits = () => {
     return (
         <div>
             <Navbar />
-
             <div className='pt-20 flex md:flex-row flex-col justify-between h-screen items-center xl:px-32 lg:px-24 sm:px-16 px-5 gap-10'>
                 <div className=' md:w-[50%] w-full'>
                     <h1 className='text-[#62baf5] xl:text-5xl  xlg:text-4xl slg:text-4xl md: text-2xl font-normal'>Unlock Exclusive Benifits</h1>
-
                     <div className='pt-6  '>
                         <label className='text-base text-black font-medium' htmlFor="">PHONE NUMBER</label>
                         <div className='flex lg:flex-row flex-col lg:gap-2 gap-8 pt-1 xl:w-[410px] lg:w-[400px] '>
@@ -45,14 +43,11 @@ const Exclusive_Benifits = () => {
                                 />
                             </div>
                         </div>
-
                         <div className='pt-12'>
                             <button className='text-lg  md:w-[64.5%] w-full  text-[#ffffff] outline-none font-medium tracking-widest bg-[#61baf5] px-5 rounded-3xl border-2 border-[#9c9c9c]'>
                                 CONTINUE
                             </button>
                         </div>
-
-
                     </div>
                 </div>
                 <div className='xl:w-[500px] w-[400px] md:block hidden'>

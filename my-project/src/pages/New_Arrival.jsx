@@ -113,7 +113,6 @@ const New_Arrival = () => {
             </div>
           </div>
         </div>
-
         <div className=' flex xlg:flex-row flex-col xlg:gap-0 gap-10 items-center justify-between 2xl:px-16'>
           <div className='flex flex-col items-center justify-center'>
             <img className='xl:w-72 w-56  -mt-10' src={membership} alt="" />
@@ -123,7 +122,6 @@ const New_Arrival = () => {
             </Link>
             </div>
           </div>
-
           <div className='flex justify-center items-center  lg:pt-10 pt-5 '>
             <div className='flex flex-col gap-3'>
               <h3 className='text-[#7dadb1] xl:text-[32px] slg:text-3xl vvsm:text-2xl text-xl xlg:hidden '>
@@ -135,12 +133,9 @@ const New_Arrival = () => {
                 <hr className='bg-gray-200 w-6 h-[2px]' />
               </div>
             </div>
-
           </div>
-
           <div className='lg:w-[700px md:w-[700px] sm:w-[600px] xsm:w-[500px] ssm:w-[410px] bg-red500 vsm:w-[350px] vvsm:w-[380px] w-[300px] px-10 xl:pt-20 '>
             <div className=' '>
-
               <Slider ref={slider} {...settings} className='z-10'>
                 <div className='rounded-xl border w-[190px border-[#3a7c72] overflow-hidden'>
                   <div className=''>
@@ -151,7 +146,6 @@ const New_Arrival = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className='rounded-xl border w-[190px border-[#3a7c72] overflow-hidden'>
                   <div className=''>
                     <img src={img3} alt="" />
@@ -161,7 +155,6 @@ const New_Arrival = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className='rounded-xl border w-[190px border-[#3a7c72] overflow-hidden'>
                   <div className=''>
                     <img src={img1} alt="" />
@@ -171,7 +164,6 @@ const New_Arrival = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className='rounded-xl border w-[190px border-[#3a7c72] overflow-hidden'>
                   <div className=''>
                     <img src={img3} alt="" />
@@ -181,7 +173,6 @@ const New_Arrival = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className='rounded-xl border w-[190px border-[#3a7c72] overflow-hidden'>
                   <div className=''>
                     <img src={img1} alt="" />
@@ -199,9 +190,7 @@ const New_Arrival = () => {
                       UNLOCK NOW
                     </button>
                   </Link>
-
                 </div>
-
                 <div className='hover:scale-[1.01] '>
                   <Link to='/exclusive-benifits'>
                     <button className='text-sm py-0.5 px-10 text-[#ffffff] outline-none font-medium tracking-widest bg-gradient-to-r from-[#2cb598] via-[#5fd8c4] to-[#2cb598] rounded-3xl border-2 border-[#c5c5c5]'>
@@ -210,10 +199,8 @@ const New_Arrival = () => {
                   </Link>
                 </div>
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
     </div>
