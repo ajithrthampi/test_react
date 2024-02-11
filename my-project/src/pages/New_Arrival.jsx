@@ -4,7 +4,6 @@ import { img1, img2, img3, membership } from '../assets'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../pages/arrival.css"
 import { GiJerusalemCross } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import { HiOutlineArrowLongLeft, HiOutlineArrowLongRight } from 'react-icons/hi2';
